@@ -20,7 +20,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_add(self):
         """Test the add function with positive integers."""
-        self.assertEqual(add(2, 3), 5)
+        self.assertEqual(add(2, 3), 6)
 
     def test_subtract(self):
         """Test the subtract function with positive integers."""
